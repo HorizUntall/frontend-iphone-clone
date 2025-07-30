@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.sectDetails {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    width: 1000px;
+
+}
+
+/* Left Side */
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.product-title {
+    font-size: 21px;
+}
+
+.product-prices {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-block: 20px;
+}
+
+.apple-card {
+    display: flex;
+}
+
+.apple-card a{
+    color: #0066cc;
+}
+
+.apple-card:hover a{
+    text-decoration: underline;
+    /* cursor: pointer; */
+}
+
+.apple-card span {
+    display: flex;
+    margin-left: 5px;
+}
+
+.apple-card img {
+    max-height: 20px;
+}
+/* 
+.product-sizes {
+    width: 100%;
+    margin-block: 10px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.product-sizes .left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product-sizes .left .select {
+    width: 100%;
+    all: unset;
+}
+
+.product-sizes .right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+} */
+
+.product-colors {
+    width: 100%;
+    margin-block: 10px;
+}
+
+.product-colors .color-circles {
+    margin-block: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 10px;
+    column-gap: 0px;
+
+}
+
+.product-colors .color-circles .circles {
+    background-color: grey;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: inset 0px 0.5px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.divider {
+    height: auto;
+    width: 100%;
+}
+
+.purchase-guide {
+    margin-block: 15px;
+
+}
+
+.product-order-details {
+    width: 100%;
+    margin-inline: 20px;
+
+}
+
+.delivery {
+    display: flex;
+    margin-block: 10px;
+    
+}
+
+.delivery-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+.pickup {
+    display: flex;
+}
+
+.pickup-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.delivery-info a, .pickup-details a {
+    color: #0066cc;
+}
+
+.delivery-info a:hover, .pickup-details a:hover {
+    text-decoration: underline;
+}
+
+.get-delivery-dates, .check-availability {
+    display: flex;
+}
+
+.get-delivery-dates span, .check-availability span{
+    margin-left: 5px;    
+}
+
+.get-delivery-dates img, .check-availability img {
+    max-height: 20px;
+}
+
+.product-add-to-bag {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-block: 30px;
+}
+
+.product-add-to-bag button {
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0171e4;
+    color: white;
+}
+
+.main-image img{
+    max-height: 500px;
+}
+
+.product-images {
+    
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.other-images {
+    display: flex;
+    justify-content: center;
+}
+
+.other-images ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.other-images li {
+}
+
+.other-images li {
+}
+
+.mini-images img {
+    max-height: 30px;
+}
+
+.btn-add-to-bag {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Right Side */
+
+.other-images button{
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../assets/fonts/SFPRODISPLAYREGULAR.OTF");
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../assets/fonts/SFPRODISPLAYMEDIUM.OTF");
+    font-weight: bold;
+    font-style: normal;
+}

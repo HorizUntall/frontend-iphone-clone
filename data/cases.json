@@ -1,0 +1,59 @@
+{
+
+
+    "1" : {
+        "title" : "iPhone 16 Pro Max Clear Case with MagSafe",
+        "price" : "$49.00",
+        "priceAlt" : "$4.08/mo.per month for 12 mo.*",
+        "size" : ["iPhone 16", "iPhone 16 Plus", "iPhone 16 Pro", "iPhone 16 Pro Max"],
+        "color" : null,
+        "stock" : "In Stock",
+        "shipping" : "Free Shipping"
+    }, 
+
+    "2" : {
+        "id" : 2,
+        "title" : "iPhone 16 Plus Silicone Case with MagSafe – Peony",
+        "price" : "$49.00",
+        "priceAlt" : "$4.08/mo.per month for 12 mo.*",
+        "size" : ["iPhone 16", "iPhone 16 Plus", "iPhone 16 Pro", "iPhone 16 Pro Max"],
+        "color" : ["#7686c0", "#fd89c3", "#d3e6d8", "#fc7f6e", "#eedf49", "414b95"],
+        "stock" : "Sold Out",
+        "shipping" : null
+    }, 
+
+    "3" : {
+        "id" : 3,
+        "title" : "Beats iPhone 16 Pro Case with MagSafe — Special Edition — Sunrise Pink",
+        "price" : "$49.00",
+        "priceAlt" : null,
+        "size" : ["iPhone 16", "iPhone 16 Plus", "iPhone 16 Pro", "iPhone 16 Pro Max"],
+        "color" : ["#ddacb4", "#303ca1"],
+        "stock" : "In Stock",
+        "shipping" : "Free Shipping"
+    },
+
+    "4" : {
+        "id" : 4,
+        "title" : "Tech21 FlexQuartz Case for iPhone 16e - Clear",
+        "price" : "$44.95",
+        "priceAlt" : null,
+        "size" : null,
+        "color" : null,
+        "stock" : "Sold Out",
+        "shipping" : null
+    },
+
+    "5" : {
+        "id" : 5,
+        "title" : "iPhone 16e Silicone Case – Winter Blue",
+        "price" : "$39.00",
+        "priceAlt" : " $3.25/mo.per month for 12 mo.*",
+        "size" : ["iPhone 16", "iPhone 16 Plus", "iPhone 16 Pro", "iPhone 16 Pro Max"],
+        "color" : ["#5e7171", "#b7437c", "#7b96b6", "#f8f8f8", "#3e4040"],
+        "stock" : "In Stock",
+        "shipping" : "Free Shipping"
+    }
+
+
+}

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.sectFeatured {
+    width: auto;
+}
+
+.subheader {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.subheader h2 {
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.bento-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    width: 1000px;
+    height: 1200px;
+}
+
+.box {
+    background-color: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 25px;
+    border-radius: 1rem;
+}
+
+.box .img-container {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box .img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box .colored-dots {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.box .colored-dots .circles {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    box-shadow: inset 0px 0.5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.box .prod-title {
+    font-weight: 500;
+    margin-block: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: text-decoration 0.2s ease;
+}
+
+.box .prod-title:hover {
+    text-decoration: underline;
+    color: #0066cc;
+}
+
+.box .price {
+    font-weight: 100;
+}
+
+#box2 {
+    grid-column: 2 / -1;
+}
+
+.scp {
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+}
+
+.scp a {
+    color: #0066cc;
+}
+
+.scp a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../assets/fonts/SFPRODISPLAYREGULAR.OTF");
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../assets/fonts/SFPRODISPLAYMEDIUM.OTF");
+    font-weight: bold;
+    font-style: normal;
+}
